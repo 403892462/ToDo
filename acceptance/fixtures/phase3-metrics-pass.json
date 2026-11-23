@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-304",
+  "source": "INDEPENDENT",
+  "acceptanceIds": ["AC-085", "AC-086", "AC-087"],
+  "status": "PASS",
+  "evidence": "有效指标、未知成本、矛盾拒绝、脱敏和原证据只读测试通过。"
+}

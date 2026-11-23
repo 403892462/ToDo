@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "status": "AWAITING_FIX",
+  "originalAuditId": "AUDIT-YYYYMMDD-NNNNNN",
+  "originalReport": ".project/audits/AUDIT-YYYYMMDD-NNNNNN.md",
+  "returnWorkItem": "WI-000",
+  "repairRunId": null,
+  "repairEvidence": null,
+  "reaudits": [],
+  "cycles": []
+}

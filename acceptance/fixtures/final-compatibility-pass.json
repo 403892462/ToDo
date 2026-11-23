@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-205",
+  "source": "INDEPENDENT",
+  "acceptanceIds": ["AC-070", "AC-071"],
+  "status": "PASS",
+  "evidence": "Phase 1 历史证据摘要、历史 Gate 和 Phase 2 自举兼容测试通过；证据 evidence/RUN-20261111-145219-WI028.md。"
+}

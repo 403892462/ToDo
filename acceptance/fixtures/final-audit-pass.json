@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-203",
+  "source": "INDEPENDENT",
+  "acceptanceIds": ["AC-065", "AC-066", "AC-067"],
+  "status": "PASS",
+  "evidence": "独立 PASS、故意 FAIL、AUDIT_ERROR 与 SHA-256 只读边界测试通过；证据 evidence/RUN-20261111-143123-WI026.md。"
+}

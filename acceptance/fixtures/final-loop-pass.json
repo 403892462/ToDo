@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-204",
+  "source": "INDEPENDENT",
+  "acceptanceIds": ["AC-068", "AC-069"],
+  "status": "PASS",
+  "evidence": "失败退回、修复验证、新复验及多轮历史保留测试通过；证据 evidence/RUN-20261111-144022-WI027.md。"
+}

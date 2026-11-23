@@ -1,0 +1,6 @@
+{
+  "changeId": "CHG-000",
+  "requirementIds": ["FR-000"],
+  "impactComplete": false,
+  "affectedArtifactIds": []
+}

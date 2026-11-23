@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-001",
+  "source": "INDEPENDENT",
+  "acceptanceId": "AC-065",
+  "status": "PASS",
+  "evidence": "独立样例验证完整覆盖、有效证据和只读边界同时满足时允许通过。"
+}

@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-002",
+  "source": "INDEPENDENT",
+  "acceptanceId": "AC-066",
+  "status": "FAIL",
+  "evidence": "故意失败夹具：模拟独立验收项失败，必须拒绝交付。"
+}

@@ -1,0 +1,11 @@
+{
+  "cycleId": "CYCLE-v3.0",
+  "stateDigest": "1a8fa5a9e25e5a34939c4d216630068eb67bb03f9380718242a7158cf4edc502",
+  "action": "START_WORK_ITEM",
+  "target": "WI-035",
+  "params": {
+    "workItem": "WI-035",
+    "runId": "RUN-20261121-104511-WI035"
+  },
+  "timeoutMs": 30000
+}

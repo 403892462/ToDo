@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "cycleId": "CYCLE-v2.0",
+  "version": "v2.0",
+  "snapshotType": "BOOTSTRAP_COMPATIBILITY_SUMMARY",
+  "capturedAt": "2026-11-23T10:19:18.9539173+08:00",
+  "refreshedAt": "2026-11-23T10:55:00.3286984+08:00",
+  "historicalCompletedAt": "2026-11-11T15:14:32.3887306+08:00",
+  "note": "此摘要在 Phase 3 实施后补建，只证明所列历史交付、审计与证据当前摘要，不伪造 v2.0 当时的自动快照或启动历史。",
+  "files": [
+    { "path": "docs/delivery.md", "sha256": "a56570406030747a1d5cb33ebdaedad08ad05f13df539a05af0bdd6f13f8dd82" },
+    { "path": ".project/audits/AUDIT-20261111-145800.md", "sha256": "9885ff9317b7ea59ee5183908deb2b9feca40034e2b369532fc4479f1a0cf116" },
+    { "path": ".project/audits/phase2-v2-final-manifest.json", "sha256": "a1109fea1b4a5840e88da72265325a7216c59682c72450643c66dc191128b76e" },
+    { "path": "evidence/RUN-20261111-145219-WI028.md", "sha256": "ed91c9e70447edfbb68b2db9fe58dc61be0ea835f5945abebfdf2b64590c2c7b" }
+  ]
+}

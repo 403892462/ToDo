@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "issueId": "DQ-METRIC-WI036",
+  "eventId": "METRIC-WI036",
+  "recordedAt": "2026-11-23T02:57:34.086Z",
+  "status": "INVALID",
+  "errors": [
+    "开始或结束时间不是规范 ISO 8601 时间。",
+    "耗时必须是与起止时间一致的非负整数毫秒。",
+    "质量指标必须包含受支持类型、真实状态和来源引用。"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "cycleId": "CYCLE-v1.0",
+  "version": "v1.0",
+  "state": {
+    "currentStage": "DISCOVERY",
+    "stageStatus": "IN_PROGRESS",
+    "activeRun": null,
+    "activeWorkItem": null
+  },
+  "gates": {
+    "GATE_1": "PENDING",
+    "GATE_2": "PENDING",
+    "UI_GATE": "NOT_APPLICABLE",
+    "SOLUTION_DESIGN": "PENDING",
+    "IMPLEMENTATION_PLAN": "PENDING",
+    "GATE_3": "PENDING"
+  },
+  "gateEvidence": {},
+  "checks": {
+    "finalVerification": "UNKNOWN",
+    "acceptanceAudit": "UNKNOWN"
+  },
+  "workItems": [],
+  "missingArtifacts": [],
+  "contradictions": []
+}

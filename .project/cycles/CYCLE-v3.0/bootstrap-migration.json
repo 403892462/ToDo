@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "cycleId": "CYCLE-v3.0",
+  "migrationType": "MANUAL_BOOTSTRAP_COMPATIBILITY",
+  "recordedAt": "2026-11-23T10:19:18.9539173+08:00",
+  "originalStartMode": "MANUAL_APPROVED_BOOTSTRAP",
+  "previousCycleSnapshot": ".project/cycles/snapshots/CYCLE-v2.0.json",
+  "riskId": "RISK-013",
+  "riskDisposition": "MITIGATED_BY_COMPATIBILITY_EVIDENCE",
+  "note": "保留 v3.0 人工启动事实；未将其改写为 project-orchestrator 自动启动。"
+}

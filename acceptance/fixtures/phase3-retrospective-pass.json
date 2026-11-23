@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-305",
+  "source": "INDEPENDENT",
+  "acceptanceIds": ["AC-088", "AC-089", "AC-090"],
+  "status": "PASS",
+  "evidence": "Gate 3 防线、缺失数据、事实分区和建议治理测试通过。"
+}

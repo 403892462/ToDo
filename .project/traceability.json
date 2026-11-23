@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "baseline": "v3.0",
+  "requirements": [
+    { "id": "FR-034", "solutions": ["SOL-002"], "workItems": ["WI-029", "WI-036"], "tests": ["TEST-007", "TEST-014"], "evidence": ["EVIDENCE-WI029", "EVIDENCE-WI036"] },
+    { "id": "FR-035", "solutions": ["SOL-002"], "workItems": ["WI-030", "WI-036"], "tests": ["TEST-008", "TEST-014"], "evidence": ["EVIDENCE-WI030", "EVIDENCE-WI036"] },
+    { "id": "FR-036", "solutions": ["SOL-002"], "workItems": ["WI-031", "WI-036"], "tests": ["TEST-009", "TEST-014"], "evidence": ["EVIDENCE-WI031", "EVIDENCE-WI036"] },
+    { "id": "FR-037", "solutions": ["SOL-002"], "workItems": ["WI-032", "WI-036"], "tests": ["TEST-010", "TEST-014"], "evidence": ["EVIDENCE-WI032", "EVIDENCE-WI036"] },
+    { "id": "FR-038", "solutions": ["SOL-002"], "workItems": ["WI-033", "WI-036"], "tests": ["TEST-011", "TEST-014"], "evidence": ["EVIDENCE-WI033", "EVIDENCE-WI036"] },
+    { "id": "FR-039", "solutions": ["SOL-002"], "workItems": ["WI-034", "WI-036"], "tests": ["TEST-012", "TEST-014"], "evidence": ["EVIDENCE-WI034", "EVIDENCE-WI036"] },
+    { "id": "FR-040", "solutions": ["SOL-002"], "workItems": ["WI-035", "WI-036"], "tests": ["TEST-013", "TEST-014"], "evidence": ["EVIDENCE-WI035", "EVIDENCE-WI036"] }
+  ],
+  "artifacts": [
+    { "id": "SOL-002", "type": "solution", "path": "docs/solution-design-v2.md", "status": "VALID", "requirements": ["FR-034", "FR-035", "FR-036", "FR-037", "FR-038", "FR-039", "FR-040"] },
+    { "id": "WI-029", "type": "work-item", "path": "plans/plan-first-release.md", "status": "VALID", "requirements": ["FR-034"] },
+    { "id": "WI-030", "type": "work-item", "path": "plans/plan-first-release.md", "status": "VALID", "requirements": ["FR-035"] },
+    { "id": "WI-031", "type": "work-item", "path": "plans/plan-first-release.md", "status": "VALID", "requirements": ["FR-036"] },
+    { "id": "WI-032", "type": "work-item", "path": "plans/plan-first-release.md", "status": "VALID", "requirements": ["FR-037"] },
+    { "id": "WI-033", "type": "work-item", "path": "plans/plan-first-release.md", "status": "VALID", "requirements": ["FR-038"] },
+    { "id": "WI-034", "type": "work-item", "path": "plans/plan-first-release.md", "status": "VALID", "requirements": ["FR-039"] },
+    { "id": "WI-035", "type": "work-item", "path": "plans/plan-first-release.md", "status": "VALID", "requirements": ["FR-040"] },
+    { "id": "WI-036", "type": "work-item", "path": "plans/plan-first-release.md", "status": "VALID", "requirements": ["FR-034", "FR-035", "FR-036", "FR-037", "FR-038", "FR-039", "FR-040"] },
+    { "id": "TEST-007", "type": "test", "path": "scripts/lib/project-cycle.test.mjs", "status": "VALID", "requirements": ["FR-034"] },
+    { "id": "TEST-008", "type": "test", "path": "scripts/lib/project-orchestrator.test.mjs", "status": "VALID", "requirements": ["FR-035"] },
+    { "id": "TEST-009", "type": "test", "path": "scripts/lib/orchestrator-executor.test.mjs", "status": "VALID", "requirements": ["FR-036"] },
+    { "id": "TEST-010", "type": "test", "path": "scripts/lib/work-scheduler.test.mjs", "status": "VALID", "requirements": ["FR-037"] },
+    { "id": "TEST-011", "type": "test", "path": "scripts/lib/parallel-safety.test.mjs", "status": "VALID", "requirements": ["FR-038"] },
+    { "id": "TEST-012", "type": "test", "path": "scripts/lib/metrics.test.mjs", "status": "VALID", "requirements": ["FR-039"] },
+    { "id": "TEST-013", "type": "test", "path": "scripts/lib/delivery-retrospective.test.mjs", "status": "VALID", "requirements": ["FR-040"] },
+    { "id": "TEST-014", "type": "test", "path": "acceptance/phase3-compatibility.test.mjs", "status": "VALID", "requirements": ["FR-034", "FR-035", "FR-036", "FR-037", "FR-038", "FR-039", "FR-040"] },
+    { "id": "EVIDENCE-WI029", "type": "evidence", "path": "evidence/RUN-20261118-213007-WI029.md", "status": "VALID", "requirements": ["FR-034"] },
+    { "id": "EVIDENCE-WI030", "type": "evidence", "path": "evidence/RUN-20261118-214609-WI030.md", "status": "VALID", "requirements": ["FR-035"] },
+    { "id": "EVIDENCE-WI031", "type": "evidence", "path": "evidence/RUN-20261118-220235-WI031.md", "status": "VALID", "requirements": ["FR-036"] },
+    { "id": "EVIDENCE-WI032", "type": "evidence", "path": "evidence/RUN-20261121-101725-WI032.md", "status": "VALID", "requirements": ["FR-037"] },
+    { "id": "EVIDENCE-WI033", "type": "evidence", "path": "evidence/RUN-20261121-103040-WI033.md", "status": "VALID", "requirements": ["FR-038"] },
+    { "id": "EVIDENCE-WI034", "type": "evidence", "path": "evidence/RUN-20261121-103737-WI034.md", "status": "VALID", "requirements": ["FR-039"] },
+    { "id": "EVIDENCE-WI035", "type": "evidence", "path": "evidence/RUN-20261121-104511-WI035.md", "status": "VALID", "requirements": ["FR-040"] },
+    { "id": "EVIDENCE-WI036", "type": "evidence", "path": "evidence/RUN-20261123-101829-WI036.md", "status": "VALID", "requirements": ["FR-034", "FR-035", "FR-036", "FR-037", "FR-038", "FR-039", "FR-040"] }
+  ]
+}

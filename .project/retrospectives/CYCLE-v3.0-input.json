@@ -1,0 +1,62 @@
+{
+  "gate3Approved": true,
+  "cycleId": "CYCLE-v3.0",
+  "generatedAt": "2026-11-23T03:00:00.000Z",
+  "sources": {
+    "cycle": ".project/cycles/index.json",
+    "runs": [
+      ".project/runs/RUN-20261118-213007-WI029.md",
+      ".project/runs/RUN-20261118-214609-WI030.md",
+      ".project/runs/RUN-20261118-220235-WI031.md",
+      ".project/runs/RUN-20261121-101725-WI032.md",
+      ".project/runs/RUN-20261121-103040-WI033.md",
+      ".project/runs/RUN-20261121-103737-WI034.md",
+      ".project/runs/RUN-20261121-104511-WI035.md",
+      ".project/runs/RUN-20261123-101829-WI036.md"
+    ],
+    "verification": "evidence/RUN-20261123-101829-WI036.md",
+    "audit": ".project/audits/AUDIT-20261123-102600.md",
+    "delivery": "docs/delivery.md"
+  },
+  "metrics": [
+    {
+      "schemaVersion": 1,
+      "eventId": "METRIC-WI036",
+      "cycleId": "CYCLE-v3.0",
+      "subject": { "type": "WORK_ITEM", "id": "WI-036" },
+      "source": { "type": "RUN", "ref": ".project/runs/RUN-20261123-101829-WI036.md" },
+      "startedAt": "2026-11-23T02:18:48.012Z",
+      "endedAt": "2026-11-23T02:25:15.230Z",
+      "durationMs": 387218,
+      "outcome": "SUCCESS",
+      "counts": { "success": 1, "failure": 0, "retry": 0 },
+      "quality": [
+        { "kind": "test", "status": "PASS", "sourceRef": "evidence/RUN-20261123-101829-WI036.md" },
+        { "kind": "audit", "status": "PASS", "sourceRef": ".project/audits/AUDIT-20261123-102600.md" }
+      ],
+      "usage": {
+        "calls": null,
+        "inputTokens": null,
+        "outputTokens": null,
+        "totalTokens": null,
+        "missingReason": "当前本地执行链未提供可核验的模型调用用量。"
+      },
+      "cost": {
+        "amount": null,
+        "currency": null,
+        "provider": null,
+        "sourceRef": null,
+        "missingReason": "当前本地执行链未提供可核验的成本来源。"
+      },
+      "dataQuality": "VALID"
+    }
+  ],
+  "inferences": [
+    "保守串行与资源漂移停止机制降低了自动推进期间发生未检测冲突的风险。",
+    "当前指标只能完整描述 WI-036 收尾运行，不能代表整个 Phase 3 的总耗时或总成本。"
+  ],
+  "suggestions": [
+    "后续周期评估为全部工作项自动采集统一指标事件。",
+    "后续周期再评估 CI、多模型审计和真实 Git 工作树支持。"
+  ]
+}

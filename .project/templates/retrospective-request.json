@@ -1,0 +1,15 @@
+{
+  "gate3Approved": false,
+  "cycleId": "CYCLE-v3.0",
+  "generatedAt": "由执行入口写入规范 ISO 8601 时间",
+  "sources": {
+    "cycle": ".project/cycles/index.json",
+    "runs": [".project/runs/RUN-EXAMPLE.md"],
+    "verification": "evidence/RUN-EXAMPLE.md",
+    "audit": ".project/audits/AUDIT-EXAMPLE.md",
+    "delivery": "docs/delivery.md"
+  },
+  "metrics": [],
+  "inferences": [],
+  "suggestions": []
+}

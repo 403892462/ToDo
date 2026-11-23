@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "baseline": "v1.3-and-earlier",
+  "files": [
+    { "path": "evidence/RUN-20261104-161310-WI006.md", "sha256": "5d2b709e4beffbea65f4393aa4015d0e9df45e75e18111df800fcc766358451a" },
+    { "path": "evidence/RUN-20261105-143921-WI012.md", "sha256": "cadd289b0344ee0cf8b5a829b6cf5d08f3c5456b1bf1a2e18ba6a122b2c3db25" },
+    { "path": "evidence/RUN-20261106-142858-WI016.md", "sha256": "1900e07e582d7b28f07cc01d33d3434dc97707013a17acd8927a2a18c09be828" },
+    { "path": "evidence/RUN-20261109-141044-WI022.md", "sha256": "913c51cff7ed3c96e1e46b97e74601a86fa6ff41b2f3ca17966288bb6be05e14" }
+  ],
+  "historicalGates": ["v1.1", "v1.2", "v1.3"]
+}

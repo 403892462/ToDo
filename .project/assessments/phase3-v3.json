@@ -1,0 +1,12 @@
+{
+  "changeId": "GOAL-005",
+  "informationComplete": true,
+  "declaredRisk": "HIGH",
+  "impacts": [
+    "data-model",
+    "irreversible",
+    "public-api",
+    "cross-module"
+  ],
+  "simplificationReason": ""
+}

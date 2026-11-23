@@ -1,0 +1,12 @@
+{
+  "items": [
+    {
+      "id": "WI-101",
+      "dependsOn": [],
+      "fileScopes": [{ "path": "src/feature-a", "kind": "directory" }],
+      "semanticResources": ["feature-a-contract"],
+      "runtimeResources": [],
+      "isolation": "PROVEN"
+    }
+  ]
+}

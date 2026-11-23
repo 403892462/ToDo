@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 1,
+  "key": "93c9db8c4d036e01cc3bdf323aaa3a54048fa1c08645abde4a7d9dc4c80e866c",
+  "events": [
+    {
+      "key": "93c9db8c4d036e01cc3bdf323aaa3a54048fa1c08645abde4a7d9dc4c80e866c",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-036",
+      "command": "work-item-control",
+      "beforeStateDigest": "70f91271bde96081814487029ef857b368c944dbd079235d9b42f9446f3e3a90",
+      "expectedState": {
+        "activeRun": "RUN-20261123-101829-WI036"
+      },
+      "startedAt": "2026-11-23T02:18:45.973Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 93c9db8c4d036e01cc3bdf323aaa3a54048fa1c08645abde4a7d9dc4c80e866c",
+      "sideEffectStarted": false,
+      "status": "STARTED"
+    },
+    {
+      "key": "93c9db8c4d036e01cc3bdf323aaa3a54048fa1c08645abde4a7d9dc4c80e866c",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-036",
+      "command": "work-item-control",
+      "beforeStateDigest": "70f91271bde96081814487029ef857b368c944dbd079235d9b42f9446f3e3a90",
+      "expectedState": {
+        "activeRun": "RUN-20261123-101829-WI036"
+      },
+      "startedAt": "2026-11-23T02:18:45.973Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 93c9db8c4d036e01cc3bdf323aaa3a54048fa1c08645abde4a7d9dc4c80e866c",
+      "sideEffectStarted": true,
+      "status": "RUNNING"
+    },
+    {
+      "key": "93c9db8c4d036e01cc3bdf323aaa3a54048fa1c08645abde4a7d9dc4c80e866c",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-036",
+      "command": "work-item-control",
+      "beforeStateDigest": "70f91271bde96081814487029ef857b368c944dbd079235d9b42f9446f3e3a90",
+      "expectedState": {
+        "activeRun": "RUN-20261123-101829-WI036"
+      },
+      "startedAt": "2026-11-23T02:18:45.973Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 93c9db8c4d036e01cc3bdf323aaa3a54048fa1c08645abde4a7d9dc4c80e866c",
+      "sideEffectStarted": true,
+      "status": "SUCCEEDED",
+      "exitCode": 0,
+      "afterStateDigest": "06c867cc688991c44bbe37c13c090a5d1a2d8745e3193323dfdec944709a7dfe",
+      "endedAt": "2026-11-23T02:18:49.569Z",
+      "nextAction": {
+        "status": "BLOCKED",
+        "code": "ACTIVE_RUN",
+        "reason": "运行 RUN-20261123-101829-WI036 尚未结束，不能选择新的动作。",
+        "action": null,
+        "evidence": [
+          "RUN-20261123-101829-WI036"
+        ]
+      },
+      "replayed": false
+    }
+  ]
+}

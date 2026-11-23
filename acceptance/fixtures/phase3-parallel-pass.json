@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-303",
+  "source": "INDEPENDENT",
+  "acceptanceIds": ["AC-080", "AC-081", "AC-082", "AC-083", "AC-084"],
+  "status": "PASS",
+  "evidence": "依赖排序、保守并行、资源租约、漂移停止和人工接管测试通过。"
+}

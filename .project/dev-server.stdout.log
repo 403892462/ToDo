@@ -1,0 +1,16 @@
+
+> todo-mobile@0.1.0 dev
+> next dev -H 127.0.0.1
+
+▲ Next.js 16.4.5 (Turbopack)
+- Local:         http://127.0.0.1:3000
+- Network:       http://127.0.0.1:3000
+- Environments: .env.local
+✓ Ready in 488ms
+✓ Running next.config.ts took 34ms
+
+ POST /api/tasks/parse 200 in 6.7s (next.js: 207ms, application-code: 6.4s)
+ GET / 200 in 286ms (next.js: 167ms, application-code: 119ms)
+ POST /api/tasks/parse 200 in 5.8s (next.js: 1.4ms, application-code: 5.8s)
+ POST /api/tasks/parse 200 in 13.9s (next.js: 3ms, application-code: 13.9s)
+ GET / 200 in 107ms (next.js: 9ms, application-code: 98ms)

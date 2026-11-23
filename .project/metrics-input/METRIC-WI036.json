@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "eventId": "METRIC-WI036",
+  "cycleId": "CYCLE-v3.0",
+  "subject": { "type": "WORK_ITEM", "id": "WI-036" },
+  "source": { "type": "RUN", "ref": ".project/runs/RUN-20261123-101829-WI036.md" },
+  "startedAt": "2026-11-23T02:18:48.012Z",
+  "endedAt": "2026-11-23T02:25:15.230Z",
+  "durationMs": 387218,
+  "outcome": "SUCCESS",
+  "counts": { "success": 1, "failure": 0, "retry": 0 },
+  "quality": [
+    { "kind": "test", "status": "PASS", "sourceRef": "evidence/RUN-20261123-101829-WI036.md" },
+    { "kind": "audit", "status": "PASS", "sourceRef": ".project/audits/AUDIT-20261123-102600.md" }
+  ],
+  "usage": {
+    "calls": null,
+    "inputTokens": null,
+    "outputTokens": null,
+    "totalTokens": null,
+    "missingReason": "当前本地执行链未提供可核验的模型调用用量。"
+  },
+  "cost": {
+    "amount": null,
+    "currency": null,
+    "provider": null,
+    "sourceRef": null,
+    "missingReason": "当前本地执行链未提供可核验的成本来源。"
+  }
+}

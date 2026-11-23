@@ -1,0 +1,29 @@
+{
+  "auditId": "AUDIT-20261123-102600",
+  "baseline": "v3.0",
+  "acceptanceIds": [
+    "AC-072", "AC-073", "AC-074", "AC-075", "AC-076", "AC-077", "AC-078", "AC-079",
+    "AC-080", "AC-081", "AC-082", "AC-083", "AC-084", "AC-085", "AC-086", "AC-087",
+    "AC-088", "AC-089", "AC-090"
+  ],
+  "returnWorkItem": "WI-036",
+  "protectedPaths": ["scripts", "acceptance", ".agents/skills/project-orchestrator", ".agents/skills/delivery-retrospective"],
+  "checks": {
+    "coverage": { "status": "PASS", "evidence": ".project/traceability.json" },
+    "risk": { "status": "PASS", "evidence": "docs/solution-design-v2.md；.project/cycles/CYCLE-v3.0/bootstrap-migration.json" },
+    "contract": { "status": "PASS", "evidence": "npm run contract:check；evidence/RUN-20261123-101829-WI036.md" },
+    "finalVerification": { "status": "PASS", "evidence": "npm run verify；evidence/RUN-20261123-101829-WI036.md" }
+  },
+  "independentFixtures": [
+    "acceptance/fixtures/phase3-cycle-pass.json",
+    "acceptance/fixtures/phase3-orchestrator-pass.json",
+    "acceptance/fixtures/phase3-parallel-pass.json",
+    "acceptance/fixtures/phase3-metrics-pass.json",
+    "acceptance/fixtures/phase3-retrospective-pass.json"
+  ],
+  "retestConditions": [
+    "失败时退回 WI-036 或新建受控修复工作项，不允许审计角色直接修改实现或实现测试",
+    "修复后使用新的审计编号重新执行全部独立样例，不覆盖失败报告",
+    "确认审计前后受保护路径摘要一致"
+  ]
+}

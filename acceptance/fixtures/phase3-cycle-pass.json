@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-301",
+  "source": "INDEPENDENT",
+  "acceptanceIds": ["AC-072", "AC-073"],
+  "status": "PASS",
+  "evidence": "周期启动、事务回滚、版本选择和自举兼容摘要测试通过。"
+}

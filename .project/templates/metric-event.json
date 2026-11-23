@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "eventId": "METRIC-RUN-EXAMPLE",
+  "cycleId": "CYCLE-v3.0",
+  "subject": { "type": "WORK_ITEM", "id": "WI-034" },
+  "source": { "type": "RUN", "ref": ".project/runs/RUN-EXAMPLE.md" },
+  "startedAt": "2026-11-21T00:00:00.000Z",
+  "endedAt": "2026-11-21T00:00:01.000Z",
+  "durationMs": 1000,
+  "outcome": "SUCCESS",
+  "counts": { "success": 1, "failure": 0, "retry": 0 },
+  "quality": [{ "kind": "test", "status": "PASS", "sourceRef": "evidence/RUN-EXAMPLE.md" }],
+  "usage": { "calls": null, "inputTokens": null, "outputTokens": null, "totalTokens": null, "missingReason": "提供方未返回使用量" },
+  "cost": { "amount": null, "currency": null, "provider": null, "sourceRef": null, "missingReason": "提供方未返回成本" }
+}

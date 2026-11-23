@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-302",
+  "source": "INDEPENDENT",
+  "acceptanceIds": ["AC-074", "AC-075", "AC-076", "AC-077", "AC-078", "AC-079"],
+  "status": "PASS",
+  "evidence": "人工 Gate、唯一动作、失败关闭、超时恢复和幂等重放测试通过。"
+}

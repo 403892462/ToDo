@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "projectId": "PROJECT-0001",
+  "activeCycleId": "CYCLE-v3.0",
+  "cycles": [
+    {
+      "cycleId": "CYCLE-v2.0",
+      "version": "v2.0",
+      "title": "工程质量闭环",
+      "owner": "dezhi",
+      "reason": "Phase 2 历史完成周期，由 v3.0 自举迁移引用。",
+      "status": "COMPLETED",
+      "startedAt": null,
+      "completedAt": "2026-11-11T15:14:32.3887306+08:00",
+      "previousCycleId": null,
+      "snapshotPath": ".project/cycles/snapshots/CYCLE-v2.0.json",
+      "migrationStatus": "BOOTSTRAP_COMPATIBILITY_RECORDED"
+    },
+    {
+      "cycleId": "CYCLE-v3.0",
+      "version": "v3.0",
+      "title": "编排与交付复盘",
+      "owner": "dezhi",
+      "reason": "建设 project-orchestrator、delivery-retrospective、安全调度和基础指标。",
+      "status": "COMPLETED",
+      "startedAt": "2026-11-13T14:38:17.5735247+08:00",
+      "completedAt": "2026-11-23T10:56:31.0000000+08:00",
+      "previousCycleId": "CYCLE-v2.0",
+      "snapshotPath": null,
+      "migrationStatus": "BOOTSTRAP_COMPATIBILITY_VALIDATED"
+    }
+  ]
+}

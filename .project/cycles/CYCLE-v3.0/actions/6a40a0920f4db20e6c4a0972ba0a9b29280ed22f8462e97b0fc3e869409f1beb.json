@@ -1,0 +1,163 @@
+{
+  "schemaVersion": 1,
+  "key": "6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+  "events": [
+    {
+      "key": "6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-032",
+      "command": "work-item-control",
+      "beforeStateDigest": "a1c0f6a915caef85c077e30dd207f33174e9ebf8f8c56b413d01a7ce583f87bd",
+      "expectedState": {
+        "activeRun": "RUN-20261121-101725-WI032"
+      },
+      "startedAt": "2026-11-21T02:17:47.183Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "sideEffectStarted": false,
+      "status": "STARTED"
+    },
+    {
+      "key": "6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-032",
+      "command": "work-item-control",
+      "beforeStateDigest": "a1c0f6a915caef85c077e30dd207f33174e9ebf8f8c56b413d01a7ce583f87bd",
+      "expectedState": {
+        "activeRun": "RUN-20261121-101725-WI032"
+      },
+      "startedAt": "2026-11-21T02:17:47.183Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "sideEffectStarted": false,
+      "status": "FAILED",
+      "code": "EINVAL",
+      "reason": "spawn EINVAL",
+      "endedAt": "2026-11-21T02:17:47.187Z"
+    },
+    {
+      "key": "6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-032",
+      "command": "work-item-control",
+      "beforeStateDigest": "a1c0f6a915caef85c077e30dd207f33174e9ebf8f8c56b413d01a7ce583f87bd",
+      "expectedState": {
+        "activeRun": "RUN-20261121-101725-WI032"
+      },
+      "startedAt": "2026-11-21T02:19:17.578Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "sideEffectStarted": false,
+      "status": "STARTED"
+    },
+    {
+      "key": "6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-032",
+      "command": "work-item-control",
+      "beforeStateDigest": "a1c0f6a915caef85c077e30dd207f33174e9ebf8f8c56b413d01a7ce583f87bd",
+      "expectedState": {
+        "activeRun": "RUN-20261121-101725-WI032"
+      },
+      "startedAt": "2026-11-21T02:19:17.578Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "sideEffectStarted": false,
+      "status": "FAILED",
+      "code": "PROTOCOL_CHECK_FAILED",
+      "reason": "项目协议检查失败。",
+      "endedAt": "2026-11-21T02:19:18.527Z"
+    },
+    {
+      "key": "6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-032",
+      "command": "work-item-control",
+      "beforeStateDigest": "a1c0f6a915caef85c077e30dd207f33174e9ebf8f8c56b413d01a7ce583f87bd",
+      "expectedState": {
+        "activeRun": "RUN-20261121-101725-WI032"
+      },
+      "startedAt": "2026-11-21T02:20:09.582Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "sideEffectStarted": false,
+      "status": "STARTED"
+    },
+    {
+      "key": "6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-032",
+      "command": "work-item-control",
+      "beforeStateDigest": "a1c0f6a915caef85c077e30dd207f33174e9ebf8f8c56b413d01a7ce583f87bd",
+      "expectedState": {
+        "activeRun": "RUN-20261121-101725-WI032"
+      },
+      "startedAt": "2026-11-21T02:20:09.582Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "sideEffectStarted": false,
+      "status": "FAILED",
+      "code": "PROTOCOL_CHECK_FAILED",
+      "reason": "项目协议检查失败：����λ�� D:\\Project\\Todo\\scripts\\project-control.ps1:45 �ַ�: 50\r\n+     $versionedGate = [regex]::Match($discovery, '(?ms)^## Gate 1（v\\d+ ...\r\n+                                                  ~\r\n����ʽ������а�������ı�ǡ�(����\r\n����λ�� D:\\Project\\Todo\\scripts\\project-control.ps1:45 �ַ�: 55\r\n+     $versionedGate = [regex]::Match($discovery, '(?ms)^## Gate 1（v\\d+ ...\r\n+                                                       ~~~\r\n����ʽ������а�������ı�ǡ�^##����\r\n����λ�� D:\\Project\\Todo\\scripts\\project-c",
+      "endedAt": "2026-11-21T02:20:10.494Z"
+    },
+    {
+      "key": "6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-032",
+      "command": "work-item-control",
+      "beforeStateDigest": "a1c0f6a915caef85c077e30dd207f33174e9ebf8f8c56b413d01a7ce583f87bd",
+      "expectedState": {
+        "activeRun": "RUN-20261121-101725-WI032"
+      },
+      "startedAt": "2026-11-21T02:20:41.608Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "sideEffectStarted": false,
+      "status": "STARTED"
+    },
+    {
+      "key": "6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-032",
+      "command": "work-item-control",
+      "beforeStateDigest": "a1c0f6a915caef85c077e30dd207f33174e9ebf8f8c56b413d01a7ce583f87bd",
+      "expectedState": {
+        "activeRun": "RUN-20261121-101725-WI032"
+      },
+      "startedAt": "2026-11-21T02:20:41.608Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "sideEffectStarted": true,
+      "status": "RUNNING"
+    },
+    {
+      "key": "6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "cycleId": "CYCLE-v3.0",
+      "action": "START_WORK_ITEM",
+      "target": "WI-032",
+      "command": "work-item-control",
+      "beforeStateDigest": "a1c0f6a915caef85c077e30dd207f33174e9ebf8f8c56b413d01a7ce583f87bd",
+      "expectedState": {
+        "activeRun": "RUN-20261121-101725-WI032"
+      },
+      "startedAt": "2026-11-21T02:20:41.608Z",
+      "recoveryEntry": "node scripts/project-orchestrator.mjs recover CYCLE-v3.0 6a40a0920f4db20e6c4a0972ba0a9b29280ed22f8462e97b0fc3e869409f1beb",
+      "sideEffectStarted": true,
+      "status": "SUCCEEDED",
+      "exitCode": 0,
+      "afterStateDigest": "bb9a9eedf55ef747fcc9d55e6270d0486576be8c3fb2d7f01cef0230598a9744",
+      "endedAt": "2026-11-21T02:20:44.996Z",
+      "nextAction": {
+        "status": "BLOCKED",
+        "code": "ACTIVE_RUN",
+        "reason": "运行 RUN-20261121-101725-WI032 尚未结束，不能选择新的动作。",
+        "action": null,
+        "evidence": [
+          "RUN-20261121-101725-WI032"
+        ]
+      },
+      "replayed": false
+    }
+  ]
+}

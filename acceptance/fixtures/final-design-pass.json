@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-201",
+  "source": "INDEPENDENT",
+  "acceptanceIds": ["AC-054", "AC-055", "AC-056", "AC-057", "AC-058"],
+  "status": "PASS",
+  "evidence": "solution-design 分级、强制完整方案、待确认及高风险门测试通过；证据 evidence/RUN-20261110-153804-WI024.md。"
+}

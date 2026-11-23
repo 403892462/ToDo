@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-003",
+  "source": "AUDIT_DEFECT",
+  "acceptanceId": "AC-067",
+  "status": "FAIL",
+  "evidence": "故意错误的审计夹具来源，用于证明审计缺陷不会归因于实现。"
+}

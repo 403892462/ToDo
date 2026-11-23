@@ -1,0 +1,11 @@
+
+> todo-mobile@0.1.0 dev
+> next dev -H 127.0.0.1 -p 3001
+
+▲ Next.js 16.4.5 (Turbopack)
+- Local:         http://127.0.0.1:3001
+- Network:       http://127.0.0.1:3001
+- Environments: .env.local
+✓ Ready in 468ms
+✓ Running next.config.ts took 29ms
+[?25h

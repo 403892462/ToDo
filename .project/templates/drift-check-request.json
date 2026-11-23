@@ -1,0 +1,10 @@
+{
+  "workItem": "WI-101",
+  "readable": true,
+  "approvedScopes": [{ "path": "src/feature-a", "kind": "directory" }],
+  "baseline": { "src/feature-a/index.ts": "原 SHA-256" },
+  "current": { "src/feature-a/index.ts": "当前 SHA-256" },
+  "approvedSemanticResources": ["feature-a-contract"],
+  "semanticChanges": [],
+  "lastSafeState": "动作开始前状态摘要"
+}

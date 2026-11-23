@@ -1,0 +1,7 @@
+{
+  "fixtureId": "FIXTURE-202",
+  "source": "INDEPENDENT",
+  "acceptanceIds": ["AC-059", "AC-060", "AC-061", "AC-062", "AC-063", "AC-064"],
+  "status": "PASS",
+  "evidence": "双向追踪、变更影响和统一契约检查通过；证据 evidence/RUN-20261111-141920-WI025.md。"
+}
